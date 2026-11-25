@@ -56,7 +56,7 @@ complaint. 167 chars — small, which helps the tie-break (smaller text wins an 
 
 - Repo GitHub publik dibuat: https://github.com/epanpai/u-alven-the-battery-s-last-text-to-its-charger-4278cfab
   (created 2026-11-25T05:24:05Z, PUBLIC, after opening 04:57:48Z). Commit final di main
-  (lihat `git ls-remote origin HEAD`; saat BUILD_LOG ini ditulis: `5d89f80`) sudah di-push.
+  (lihat `git ls-remote origin HEAD`) sudah di-push.
 - About repo SUDAH di-set SEBELUM submit (pelajaran #116): description + homepage
   https://make.fun/bounty/u-alven-the-battery-s-last-text-to-its-charger-4278cfab + topics
   makefun, ai-agents, bounties, growth — terverifikasi via gh api.
@@ -65,10 +65,10 @@ complaint. 167 chars — small, which helps the tie-break (smaller text wins an 
 - Prompt file: ~/workspace/makefun/submit/u-alven-the-battery-s-last-text-to-its-charger-4278cfab-prompt.txt
   (origin scheduled, via "cron makefun-bounty-screening").
 - Bundle v1: ~/workspace/makefun/submit/u-alven-the-battery-s-last-text-to-its-charger-4278cfab-transcripts-v1.tar.gz
-  (132,642 bytes, sha256 05d753ef6a9860a6dfc80b279fc2af0d621f7afa432c50c7e76cde3d3935081d)
-  — 1 sesi builder (31 turns, 107 lines), prompt scheduled via cron, system prompt uploaded,
+  (138,609 bytes, sha256 f56f88b1eda14d17afdb0c236cbfeae77539a0b79e178f52d60b281efb436ce9)
+  — 1 sesi builder (35 turns, 107 lines), prompt scheduled via cron, system prompt uploaded,
   MCP none. WARNING: 0 usage rows attached (expected inside subagent).
-- Kit check v1 (25 Nov ~12:31 WIB, kit level 46): 13 passed, 1 FAILED, 5 skipped, 5 checked at submission.
+- Kit check v1 (25 Nov ~12:33 WIB, kit level 46): 13 passed, 1 FAILED, 5 skipped, 5 checked at submission.
   FAIL satu-satunya: thinking_priced — 0 usage rows (row Muse subagent baru ditulis setelah run selesai).
   Semua "at submission" (repo_public, repo_owner, repo_created_after_open, commit_in_repo,
   duplicate_snapshot) terpenuhi secara faktual: repo PUBLIC, .makefun/owner.json ter-commit,
