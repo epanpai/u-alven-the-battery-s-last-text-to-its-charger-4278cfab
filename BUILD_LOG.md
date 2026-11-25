@@ -55,8 +55,8 @@ complaint. 167 chars — small, which helps the tie-break (smaller text wins an 
 ## Submission steps
 
 - Repo GitHub publik dibuat: https://github.com/epanpai/u-alven-the-battery-s-last-text-to-its-charger-4278cfab
-  (created 2026-11-25T05:24:05Z, PUBLIC, after opening 04:57:48Z). Commit
-  `bf208596097cf2d517b2f2b6d104ea8f42600957` pushed to main.
+  (created 2026-11-25T05:24:05Z, PUBLIC, after opening 04:57:48Z). Commit final di main
+  (lihat `git ls-remote origin HEAD`; saat BUILD_LOG ini ditulis: `5d89f80`) sudah di-push.
 - About repo SUDAH di-set SEBELUM submit (pelajaran #116): description + homepage
   https://make.fun/bounty/u-alven-the-battery-s-last-text-to-its-charger-4278cfab + topics
   makefun, ai-agents, bounties, growth — terverifikasi via gh api.
@@ -94,7 +94,7 @@ SETELAH run subagent ini selesai:
 4. Cek kuota ulang, lalu submit SEBELUM blind round 1 cutoff 2026-11-25T17:35:12Z (26 Nov 00:35 WIB):
    node <kit>/cli/makefun.mjs submit --competition u-alven-the-battery-s-last-text-to-its-charger-4278cfab
    --repo-url https://github.com/epanpai/u-alven-the-battery-s-last-text-to-its-charger-4278cfab
-   --commit bf208596097cf2d517b2f2b6d104ea8f42600957
+   --commit <sha HEAD final di origin/main — lihat laporan builder / git ls-remote>
    --title "The Battery's Last Text to Its Charger — The Wi-Fi Password Line" --bundle <v2>
    --keypair ~/workspace/makefun/makefun-keypair.json
    (MAKEFUN_API_KEY dari connect-token.json field 'key'. Entry GRATIS — jangan bayar fee.)
